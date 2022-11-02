@@ -1,0 +1,35 @@
+.svg {
+  margin: 1rem auto;
+  width: 800px;
+  stroke: #fff
+}
+
+.svg:hover {
+  fill: #000
+}
+
+path {
+  fill: #9fd5de;
+  cursor: pointer;
+  outline: none
+}
+
+svg path:focus,svg path:hover {
+  fill: #0a9db4
+}
+
+svg path[aria-checked=true] {
+  fill: #382ba8
+}
+
+svg path[aria-current=true] {
+  fill: rgba(56,43,168,.83)
+}
+
+svg path[id=nz-can] {
+  fill: rgba(56,43,168,.6)
+}
+
+.zone-check-form {
+  width: 300px
+}
